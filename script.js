@@ -13,44 +13,44 @@ function game(userInput) {
     let c = computerInput();
 
     if(userInput == 'rock' && c == 'rock') {
-        console.log(`user input: ${userInput}, computer input: ${c}`);
-        console.log("game draw");
+        alert(`user input: ${userInput}, computer input: ${c}`)
+        alert("game draw");
     }
     else if(userInput == 'rock' && c == 'paper') {
-        console.log(`user input: ${userInput}, computer input: ${c}`);
-        console.log("computer won");
+        alert(`user input: ${userInput}, computer input: ${c}`);
+        alert("computer won");
     }
     else if(userInput == 'rock' && c == 'scissor') {
-        console.log(`user input: ${userInput}, computer input: ${c}`);
-        console.log("user won");
+        alert(`user input: ${userInput}, computer input: ${c}`)
+        alert("user won");
     }
     else if(userInput == 'paper' && c == 'rock') {
-        console.log(`user input: ${userInput}, computer input: ${c}`);
-        console.log("user won");
+        alert(`user input: ${userInput}, computer input: ${c}`);
+        alert("user won");
     }
     else if(userInput == 'paper' && c == 'paper') {
-        console.log(`user input: ${userInput}, computer input: ${c}`);
-        console.log("game draw");
+        alert(`user input: ${userInput}, computer input: ${c}`);
+        alert("game draw");
     }
     else if(userInput == 'paper' && c == 'scissor') {
-        console.log(`user input: ${userInput}, computer input: ${c}`);
-        console.log("computer won");
+        alert(`user input: ${userInput}, computer input: ${c}`);
+        alert("computer won");
     }
     else if(userInput == 'scissor' && c == 'rock') {
-        console.log(`user input: ${userInput}, computer input: ${c}`);
-        console.log("computer won");
+        alert(`user input: ${userInput}, computer input: ${c}`);
+        alert("computer won");
     }
     else if(userInput == 'scissor' && c == 'paper') {
-        console.log(`user input: ${userInput}, computer input: ${c}`);
-        console.log("user won");
+        alert(`user input: ${userInput}, computer input: ${c}`);
+        alert("user won");
     }
     else if(userInput == 'scissor' && c == 'scissor') {
-        console.log(`user input: ${userInput}, computer input: ${c}`);
-        console.log("game draw");
+        alert(`user input: ${userInput}, computer input: ${c}`);
+        alert("game draw");
     }
 
 }
 
 let user = prompt("enter rock, paper or scissor");
 
-console.log(game(user));
+game(user);
